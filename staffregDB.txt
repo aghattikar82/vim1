@@ -1,0 +1,10 @@
+CREATE TABLE `vim`.`userstaffregister` (
+  `staffid` INT NOT NULL,
+  `name` VARCHAR(50) NULL,
+  `designation` VARCHAR(45) NULL,
+  `education` VARCHAR(100) NULL,
+  `workexperience` VARCHAR(45) NULL,
+  `mobilenumber` VARCHAR(15) NULL,
+  `password` VARCHAR(45) NULL,
+  `emailid` VARCHAR(45) NULL,
+  PRIMARY KEY (`staffid`));
